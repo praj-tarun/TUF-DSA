@@ -8,8 +8,19 @@ def pattern_1(n):
         print()
         i+=1
 
+def pattern_2(n):
+    i=0
+    while i<n:
+        j=n-i
+        while j<n:
+            print('*',end='')
+            j+=1
+        print()
+        i+=1
+
 def main(): 
     pattern_1(5)
+    pattern_2(5)
 
 
 
